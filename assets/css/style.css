@@ -125,3 +125,44 @@ button {
   text-align: center;
   padding: 147px 0 131px;
 }
+
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 142px 0;
+}
+
+.mobile_head {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fa4a0c;
+}
+
+.mobile_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  max-width: 561px;
+  margin: 17px 0;
+}
+
+.mobile_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin: 27px 0;
+  max-width: 467px;
+}
