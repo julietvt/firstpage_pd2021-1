@@ -1,7 +1,14 @@
+:root {
+  --primary-color: #fa4a0c;
+  --second-color: #252b42;
+  --text-color: #737373;
+  --primary-size-font: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-size: var(--primary-size-font);
   font-weight: 400;
   box-sizing: border-box;
 }
@@ -50,7 +57,7 @@ button {
 }
 
 .button-style-1 {
-  background: #fa4a0c;
+  background: var(--primary-color);
   border: none;
   margin-right: 35px;
 }
@@ -130,7 +137,9 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 142px 0;
+  /*margin-top: 142px;*/
+  margin-top: 102px;
+  margin-bottom: 50px;
 }
 
 .mobile_head {
@@ -140,7 +149,7 @@ button {
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.1px;
-  color: #fa4a0c;
+  color: var(--primary-color);
 }
 
 .mobile_title {
@@ -165,4 +174,15 @@ button {
   color: #737373;
   margin: 27px 0;
   max-width: 467px;
+}
+
+.mobile_title_head {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--second-color);
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
